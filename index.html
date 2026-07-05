@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 67);
+        }
+
+        nav ul {
+            display: flex;
+            justify-self: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(109, 109, 228);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(195, 136, 250);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection>div {
+            width: 36%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+
+        }
+
+        .rightSection img {
+            width: 80;
+
+        }
+
+        .purple {
+            color: rgb(151, 69, 227);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(151, 69, 227);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 83vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+
+        }
+
+        footer {
+            background-color: #18172a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aniket's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Aniket</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf" download class="btn">Download Resume</a>
+
+                    <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" class="btn">
+                        Visit Github
+                    </a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="Hire-Full-Time-Developer.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Pintrest(2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed responsive and user-friendly web pages using HTML, CSS, and JavaScript. Improved
+                        website layouts, optimized performance, fixed UI issues, and ensured cross-browser compatibility
+                        while following modern web development practices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="png-transparent-html-logo-html5-logo.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Built scalable backend applications using Node.js and Express.js. Developed REST APIs, managed
+                        databases, implemented authentication, and improved server-side performance for reliable web
+                        applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="6a398e2bffd61024b7fa8c6eaf6a4e62.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Instagram (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Created responsive UI components and optimized webpage layouts using HTML, CSS, and JavaScript.
+                        Focused on delivering clean, accessible, and mobile-friendly user experiences.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="185-1854464_facebook-logo-png-transparent-background.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Facebook (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Designed modern web interfaces with responsive layouts and interactive elements. Enhanced
+                        website usability, improved loading speed, and maintained consistent design across browsers.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="hd-square-twitter-3d-app-icon-png-701751695051991osajswn7ie.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Twitter (2025-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed fast and responsive frontend pages using HTML, CSS, and JavaScript. Collaborated on UI
+                        improvements, performance optimization, and user-friendly navigation.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="youtube-logo-transparent-png-pictures-transparent-background-youtube-logo-11562856729oa42buzkng.png"
+                        alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Youtube (2025-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        Built responsive web pages and integrated interactive features to enhance user experience.
+                        Focused on clean code, cross-browser compatibility, and modern frontend development practices.
+                    </div>
+                </div>
+
+                <div class="vertical">
+
+                </div>
+
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <dev class="footer">
+            <dev class="footer-first">
+                <h3>Aniket's Developer Portfolio</h3>
+            </dev>
+            <dev class="footer-second">
+                <ul>
+                    <li>About</li>
+                    <li>Frontend Developer | React Developer
+                        Building modern, responsive,
+                    </li>
+                    <li>and user-friendly web applications
+                        with a focus on performance</li>
+                    <li>and clean design</li>
+
+
+                </ul>
+            </dev>
+            <dev class="footer-third">
+                <ul>
+
+                    <li>Services</li>
+                    <li>Web Development</li>
+                    <li>React Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </dev>
+            <dev class="footer-fourth">
+                <ul>
+                    <li>Contact</li>
+                    <li>📧 aniketkamble5257@gmail.com </li>
+                    <li>📱 +91 8657626712 </li>
+                    <li>📍 Maharashtra, India</li>
+
+
+                </ul>
+            </dev>
+        </dev>
+        <div class="footer-rights">
+            Copyright &#169; www.aniketsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js">
+
+    </script><!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
